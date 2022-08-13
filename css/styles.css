@@ -1,15 +1,16 @@
+
 body{
-    margin: 50;
-    border:5;
-    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 h1{
     margin-top: 0;
 }
 
-div{
+.topcontainer{
     background-color: #E9DAC1;
-    
+    position: relative;
+    padding-top: 100px;
     
 }
 .middlecontainer{
@@ -24,4 +25,19 @@ div{
     width: 200px;
       
 }
+.pro{
+    text-decoration: underline ;
+   
+}
 
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
